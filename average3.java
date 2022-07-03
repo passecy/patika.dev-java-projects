@@ -3,7 +3,7 @@ import java.util.Objects;
 import java.util.Scanner;
 class Scratch {
     public static void main(String[] args) {
-        int k,x,y,average;
+        int k,x,y;
         x=0;
         y=0;
 
