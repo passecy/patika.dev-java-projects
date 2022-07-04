@@ -1,11 +1,10 @@
 
-
-
 import java.util.Scanner;
 class Scratch {
     public static void main(String[] args) {
-       int x,y,z;
+       int x,y,z,p;
        z=0;
+       p=0;
 
 
        Scanner inp=new Scanner(System.in);
@@ -26,7 +25,28 @@ class Scratch {
            }
            i=i+1;
        }
-       System.out.println(z);
+
+
+       int t=1;
+       while (t<x*y+1){
+
+           if((t%x==0)&&(t%y==0)){
+               p=t;
+               break;
+
+           }
+
+
+
+
+           t=t+1;
+       }
+
+
+
+
+       System.out.println("Largest common factor:"+z);
+       System.out.println("Least common multiple:"+p);
 
 
 
