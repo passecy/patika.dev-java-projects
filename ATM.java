@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class ATM {
     public static void main(String[] args) {
         String userName, password;
         Scanner input = new Scanner(System.in);
